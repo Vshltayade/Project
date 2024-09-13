@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="root">
+        <!-- header starts -->
+        <header>
+            <a href="./home.html"><h2>Tech-Shop</h2></a>
+            <div id="header-icons">
+                <i class="fa-solid fa-magnifying-glass">
+                    <div id="title-search">Search</div>
+                </i>
+                <a href="./cart.html">
+                    <i id="cart_icon" class="fa-solid fa-cart-shopping">
+                        <div id="title-cart">Cart</div>
+                    </i><sup>4</sup>
+                </a>
+                <i class="fa-solid fa-user">
+                    <div id="signup">
+                        <h4>Hello!</h4>
+                        <p>Access account and manage orders</p>
+                        <a href="./sign-up.html" target="_parent">
+                            <button>Login / Signup</button>
+                        </a>
+                        <hr>
+                        <span>Please Login</span>
+                    </div>
+                </i>
+            </div>
+        </header>
+        <!-- header ends -->
+
+        <!-- cart section -->
+        <section id="cart-section">
+            <div id="cart">
+                <div class="cart-items">
+                    <div class="cart-image">
+                        <img src="../Assets/jbl-live-660.png" alt="">
+                    </div>
+                    <div class="cart-content">
+                        <h3>JBL Live 660NC Wireless Over-Ear NC Headphones</h3>
+                        <p>₹9,999 <del>14,999</del></p>
+                        <div>
+                            <div>
+                                <button>-</button>
+                                <input type="text" value="1">
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-delete">
+                        <i class="fa-solid fa-trash" title="Remove Item"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="cart-items">
+                    <div class="cart-image">
+                        <img src="../Assets/boat518-4-2.png" alt="">
+                    </div>
+                    <div class="cart-content">
+                        <h3>boAt Rockerz 518 On-Ear Wireless Headphones</h3>
+                        <p>₹1,299 <del>3,990</del></p>
+                        <div>
+                            <div>
+                                <button>-</button>
+                                <input type="text" value="1">
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-delete">
+                        <i class="fa-solid fa-trash" title="Remove Item"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="cart-items">
+                    <div class="cart-image">
+                        <img src="../Assets/boat-air-131.png" alt="">
+                    </div>
+                    <div class="cart-content">
+                        <h3>boAt Airdopes 131 Wireless In-Ear Earbuds</h3>
+                        <p>₹1,099 <del>2,990</del></p>
+                        <div>
+                            <div>
+                                <button>-</button>
+                                <input type="text" value="1">
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-delete">
+                        <i class="fa-solid fa-trash" title="Remove Item"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="cart-items">
+                    <div class="cart-image">
+                        <img src="../Assets/boat-bass-110.png" alt="">
+                    </div>
+                    <div class="cart-content">
+                        <h3>boAt BassHeads 110 In-Ear Wired Earphones</h3>
+                        <p>₹499 <del>999</del></p>
+                        <div>
+                            <div>
+                                <button>-</button>
+                                <input type="text" value="1">
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-delete">
+                        <i class="fa-solid fa-trash" title="Remove Item"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="order">
+                <pre><h2>Order Summary    ( 4 items ) </h2></pre>
+                <div>
+                    <p>Original Price</p>
+                    <p>₹22,978</p>
+                </div>
+                <div>
+                    <p>Discount</p>
+                    <p class="free">- ₹10,132</p>
+                </div>
+                <div>
+                    <p>Delivery</p>
+                    <p class="free">Free</p>
+                </div>
+                <hr>
+                <div id="total-price">
+                    <p>Total Price</p>
+                    <p>₹12,846</p>
+                </div>
+                <button>
+                    Checkout
+                </button>
+            </div>
+        </section>
+
+        <!-- footer starts -->
+        <footer>
+            <div id="footer_content">
+                <div>
+                    <h2>Tech-Shop</h2>
+                    <p>Subscribe to our Email alerts to receive early discount offers, and new products info.</p>
+                    <input type="email" name="email" placeholder="Email Address*"><br>
+                    <button>Subscribe</button>
+                </div>
+                <div class="footer-list">
+                    <h3>Help</h3>
+                    <ul>
+                        <li>FAQs</li>
+                        <li>Track Order</li>
+                        <li>Cancel Order</li>
+                        <li>Return Order</li>
+                        <li>Warranty Info</li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h3>Policies</h3>
+                    <ul>
+                        <li>Return Policy</li>
+                        <li>Security</li>
+                        <li>Sitemap</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Service Centres</li>
+                        <li>Careers</li>
+                        <li>Affiliates</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div id="last-line">
+                <p>2024 | All Rights Reserved. Built by | <span>VISHAL TAYADE</span></p>
+                <div>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+         </footer>
+        <!-- footer ends -->
+    </div>
+</body>
+</html>
